@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(122, 21, 122);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    font-size:50px
+}
+.Name input {
+  width: 450px;
+  height:35px;
+  padding-left: 28px;
+  border: 1px solid;
+  border-radius:10px; 
+  box-shadow: 8px 5px 4px rgba(77, 77, 77, 0.466);
+}
+.Password input {
+    width: 450px;
+    height:35px;
+    padding-left: 28px;
+    border: 1px solid;
+    border-radius:10px; 
+    box-shadow: 8px 5px 4px rgba(77, 77, 77, 0.466);
+  }
+.Email input {
+    width: 450px;
+    height:35px;
+    padding-left: 28px;
+    border: 1px solid;
+    border-radius:10px;
+    box-shadow: 8px 5px 4px rgba(77, 77, 77, 0.466);
+  }  
+
+.Name  {
+    position:relative;
+ }
+.Email {
+    position:relative;
+ }
+.Password {
+    position:relative;
+ }
+
+
+
+.Name i {
+    position:absolute;
+    left:5px;
+    top: 7px;
+    font-size:21px;
+    color: purple;
+ }
+
+ .Email i {
+    position:absolute;
+    left:5px;
+    top: 7px;
+    font-size:21px;
+    color: purple;
+ }
+
+ .Password i {
+    position:absolute;
+    left:5px;
+    top: 7px;
+    font-size:21px;
+    color: purple;
+ }
+ 
+button{
+    border:1px solid black;
+    border-radius:15px;
+    font-size:2px;
+    padding: 12px;
+    background: linear-gradient(rgba(165, 79, 223, 0.774),rgb(25, 9, 197));
+    color: white;
+    box-shadow: 10px 5px 5px rgba(77, 77, 77, 0.466);
+
+}
+
+span{
+    color: purple;
+    font-weight: 600;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    background:purple;
+    accent-color: purple;
+}
+
+
+
+
+   
+    
